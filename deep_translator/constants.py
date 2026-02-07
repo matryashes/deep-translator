@@ -29,6 +29,7 @@ BASE_URLS = {
     "LIBRE_FREE": "https://libretranslate.de/",
     "TENENT": "https://tmt.tencentcloudapi.com",
     "BAIDU": "https://fanyi-api.baidu.com/api/trans/vip/translate",
+    "SLAVENICA": "https://slavenica.com/",
 }
 
 GOOGLE_LANGUAGES_TO_CODES = {
@@ -656,7 +657,12 @@ BAIDU_LANGUAGE_TO_CODE = {
     "polish": "pl",
     "portuguese": "pt",
     "romanian": "ro",
+}
+
+SLAVENICA_LANGUAGES_TO_CODE = {
+    "russian (peterine orthography)": "ru-petr1708"
     "russian": "ru",
+}
     "slovenian": "slo",
     "spanish": "spa",
     "swedish": "swe",
